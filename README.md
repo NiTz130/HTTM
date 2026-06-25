@@ -15,6 +15,7 @@
 - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
 - [Cài đặt](#cài-đặt)
 - [Chạy ứng dụng](#chạy-ứng-dụng)
+- [Kiểm thử nhanh](#kiểm-thử-nhanh)
 - [Cấu trúc dự án](#cấu-trúc-dự-án)
 - [IoT & MQTT](#iot--mqtt)
 - [Fuzzy Logic Control](#fuzzy-logic-control)
@@ -208,6 +209,24 @@ npm run dev
 1. Mở `esp32/main_mqtt/main_mqtt.ino` bằng Arduino IDE
 2. Chỉnh `WIFI_SSID`, `WIFI_PASSWORD`, `MQTT_BROKER` (IP máy chạy Mosquitto)
 3. Upload lên board
+
+---
+
+## ✅ Kiểm thử nhanh
+
+### Backend
+```bash
+cd backend
+pip install -r requirements-dev.txt
+python -m pytest
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run build
+```
 
 ---
 
