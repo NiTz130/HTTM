@@ -7,6 +7,7 @@
 ## 📋 Mục lục
 
 - [Tổng quan](#tổng-quan)
+- [Tài liệu nhanh](#tài-liệu-nhanh)
 - [Kiến trúc hệ thống](#kiến-trúc-hệ-thống)
 - [Tính năng](#tính-năng)
 - [Dự đoán ARIMA](#dự-đoán-arima)
@@ -44,6 +45,18 @@ Hệ thống bao gồm 3 tầng chính:
 | 🚫 TVOC | ppb |
 | ⚡ CO | ppm |
 | 👥 Số người | người |
+
+---
+
+## 📚 Tài liệu nhanh
+
+| Tài liệu | Nội dung |
+|----------|----------|
+| [`QUICKSTART.md`](QUICKSTART.md) | Các bước chạy nhanh backend, frontend và kiểm tra cài đặt |
+| [`SETUP_GUIDE.md`](SETUP_GUIDE.md) | Hướng dẫn cài đặt chi tiết theo môi trường |
+| [`API_REFERENCE.md`](API_REFERENCE.md) | Tham khảo API, request/response và endpoint |
+| [`IoT_SETUP.md`](IoT_SETUP.md) | Thiết lập ESP32, MQTT broker và sơ đồ điều khiển |
+| [`HTTM_2.0_HYBRID_SYSTEM.md`](HTTM_2.0_HYBRID_SYSTEM.md) | Ghi chú hệ thống Hybrid Fuzzy + ARIMA |
 
 ---
 
